@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "dist/dts",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": true,
+    "outDir": "dist/esm",
+    "allowJs": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "lib": ["DOM", "ES2015", "ES2016.Array.Include"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

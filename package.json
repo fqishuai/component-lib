@@ -1,0 +1,38 @@
+{
+  "name": "component-lib",
+  "version": "0.1.0",
+  "description": "A common component library based on Web Components",
+  "main": "dist/esm/index.js",
+  "types": "dist/component-lib.d.ts",
+  "unpkg": "dist/component-lib.min.js",
+  "repository": "https://github.com/fqishuai/component-lib.git",
+  "bugs": "https://github.com/fqishuai/component-lib/issues",
+  "author": "fqishuai <rawlinsfeng@163.com>",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs": "docsify init ./docs && docsify serve docs --port 2000"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "docsify-cli": "^4.4.3",
+    "fs-extra": "^10.0.0",
+    "rollup": "^2.67.2",
+    "rollup-plugin-filesize": "^9.1.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
+  },
+  "keywords": [
+    "webcomponents",
+    "component",
+    "common",
+    "lib",
+    "components",
+    "frontend",
+    "ui"
+  ]
+}
